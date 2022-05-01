@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/components/watchlistbar.dart';
 import 'package:localstorage/localstorage.dart';
 import '../movie/Home.dart';
+import '../movie/News/NewsHomepage.dart';
 import '../movie/Search.dart';
 import '../movie/Profile.dart';
 import '../movie/Explore.dart';
@@ -12,6 +13,7 @@ class MyHomePage extends StatefulWidget {
     Page('Home', Icons.home, 30),
     Page('search', Icons.search, 30),
     Page('Explore', Icons.question_answer_rounded, 30),
+    Page('News', Icons.newspaper, 30),
     Page('library', Icons.playlist_play_sharp, 35),
     Page('profile', Icons.person_outline, 30),
   ];
@@ -57,6 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       Search(id: widget.userid, username: widget.username),
       Explore(id: widget.userid, username: widget.username),
+      NewsHomepage(),
       Watchlistbar(id: widget.userid, username: widget.username),
       Profile(id: widget.userid, username: widget.username),
     ];

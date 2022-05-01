@@ -8,8 +8,7 @@ class Main extends StatelessWidget {
     return MaterialApp(
       title: 'Movify',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+          primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.black),
       home: Splashscreen(),
       debugShowCheckedModeBanner: false,
     );

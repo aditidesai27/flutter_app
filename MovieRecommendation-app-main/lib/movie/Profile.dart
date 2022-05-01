@@ -50,10 +50,7 @@ class _ProfileState extends State<Profile> {
               gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment(0.0, 0.0),
-                colors: <Color>[
-                  Color.fromRGBO(145, 112, 157, 2),
-                  Color.fromRGBO(6, 0, 8, 2)
-                ],
+                colors: <Color>[Colors.teal, Color.fromRGBO(6, 0, 8, 2)],
               ),
             ),
             child: SingleChildScrollView(
