@@ -137,8 +137,8 @@ class _AddwatchlistState extends State<Addwatchlist> {
                                   child: Image(
                                     fit: BoxFit.cover,
                                     width: double.infinity,
-                                    color: Colors.pinkAccent,
-                                    image: AssetImage("images/logo3.png"),
+                                    image: NetworkImage(
+                                        "https://github.com/sarthakdharia/Movify/blob/main/newfold/logo_movify.png?raw=true"),
                                   )),
                               Expanded(
                                   child: Container(

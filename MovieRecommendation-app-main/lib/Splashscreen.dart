@@ -49,8 +49,9 @@ class _SplashscreenState extends State<Splashscreen> {
       body: Center(
           child: Container(
               child: Image(
-        color: Colors.redAccent,
-        image: AssetImage("images/logo3.png"),
+        color: Colors.white,
+        image: NetworkImage(
+            "https://github.com/sarthakdharia/Movify/blob/main/newfold/logo_movify.png?raw=true"),
       ))),
     );
   }

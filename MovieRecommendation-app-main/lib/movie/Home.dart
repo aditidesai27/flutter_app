@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
           "https://api.themoviedb.org/3/movie/top_rated?api_key=8b5da40bcd2b5fa4afe55c468001ad8a&language=en-US&page=2",
     },
     {
-      "name": "",
+      "name": "Popular",
       "url":
           "https://api.themoviedb.org/3/movie/popular?api_key=8b5da40bcd2b5fa4afe55c468001ad8a&language=en-US&page=1",
     },
@@ -226,18 +226,18 @@ class _HomeState extends State<Home> {
                   height: 43,
                   width: 43,
                   child: Image(
-                    color: Colors.pink,
                     fit: BoxFit.cover,
-                    image: AssetImage("images/logo3.png"),
+                    image: NetworkImage(
+                        "https://github.com/sarthakdharia/Movify/blob/main/newfold/logo_movify.png?raw=true"),
                   )),
               Shimmer.fromColors(
                   period: Duration(milliseconds: 2000),
                   baseColor: Colors.grey[100],
                   direction: ShimmerDirection.ltr,
-                  highlightColor: Colors.grey[800],
+                  highlightColor: Colors.grey[100],
                   child: Container(
                       margin: EdgeInsets.only(top: 3),
-                      child: Text("TRY ME",
+                      child: Text("Movify",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 19,
@@ -297,7 +297,7 @@ class _HomeState extends State<Home> {
                     period: Duration(milliseconds: 2000),
                     baseColor: Colors.grey[100],
                     direction: ShimmerDirection.ltr,
-                    highlightColor: Colors.grey[800],
+                    highlightColor: Colors.grey[100],
                     child: Container(
                         width: 250,
                         child: Text(name.toUpperCase(),

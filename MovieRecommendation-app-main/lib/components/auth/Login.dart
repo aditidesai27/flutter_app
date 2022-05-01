@@ -71,7 +71,7 @@ class _LoginState extends State<Login> {
                 begin: Alignment.topLeft,
                 end: Alignment(0.0, 0.0),
                 colors: <Color>[
-                  Color.fromRGBO(145, 112, 157, 2),
+                  Color.fromRGBO(122, 249, 245, 2),
                   Color.fromRGBO(6, 0, 8, 2)
                 ],
               ),
@@ -157,9 +157,9 @@ class _LoginState extends State<Login> {
           right: 20,
           bottom: 20,
         ),
-        child: Text("Try Me",
+        child: Text("Movify",
             style: TextStyle(
-                color: Colors.pinkAccent,
+                color: Colors.white,
                 fontSize: 30,
                 fontWeight: FontWeight.bold)));
   }
@@ -215,12 +215,7 @@ class _LoginState extends State<Login> {
         padding: EdgeInsets.all(0.0),
         child: Ink(
           decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [Color(0xff374ABE), Color(0xff64B6FF)],
-                begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
-              ),
-              borderRadius: BorderRadius.circular(30.0)),
+              color: Colors.cyan, borderRadius: BorderRadius.circular(30.0)),
           child: Container(
             constraints: BoxConstraints(maxWidth: 200.0, minHeight: 50.0),
             alignment: Alignment.center,

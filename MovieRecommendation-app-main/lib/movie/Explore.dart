@@ -211,7 +211,7 @@ class _ExploreState extends State<Explore> {
               period: Duration(milliseconds: 2000),
               baseColor: Colors.grey[300],
               direction: ShimmerDirection.ltr,
-              highlightColor: Colors.grey[600],
+              highlightColor: Colors.grey[300],
               child: Text(
                 'Ask here',
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
@@ -231,9 +231,7 @@ class _ExploreState extends State<Explore> {
                   ),
                   action: SnackBarAction(
                     label: 'Cancel',
-                    onPressed: () {
-                     
-                    },
+                    onPressed: () {},
                   ),
                 ),
               );

@@ -69,7 +69,7 @@ class _RegisterState extends State<Register> {
                 begin: Alignment.topLeft,
                 end: Alignment(0.0, 0.0),
                 colors: <Color>[
-                  Color.fromRGBO(145, 112, 157, 2),
+                  Color.fromRGBO(122, 249, 245, 2),
                   Color.fromRGBO(6, 0, 8, 2)
                 ],
               ),

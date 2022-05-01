@@ -1,7 +1,10 @@
-<h3> TRY ME</h3>
-<h4> Movie Recommend Mobile Appication</h4> 
+<h3>MOVIFY</h3>
+<h4> Movie Recommendation System</h4> 
 <br/>
-<a href="https://www.youtube.com/watch?v=TnPqp4KiYM8">LIVE DEMO</a>
+
+<!-- flutter run -d chrome --no-sound-null-safety --web-renderer html -->
+
+
 <h4>TECHNOLOGIES USED</h4>
 <ul>
   <li>Flutter</li>

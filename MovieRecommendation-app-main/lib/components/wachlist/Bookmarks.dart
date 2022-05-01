@@ -57,9 +57,9 @@ class _BookmarksState extends State<Bookmarks> {
           backgroundColor: Colors.black,
           title: Shimmer.fromColors(
             period: Duration(milliseconds: 2000),
-            baseColor: Colors.grey[700],
+            baseColor: Colors.grey[100],
             direction: ShimmerDirection.ltr,
-            highlightColor: Colors.grey[500],
+            highlightColor: Colors.grey[100],
             child: Text(
               "BOOKMARKS",
               style: TextStyle(

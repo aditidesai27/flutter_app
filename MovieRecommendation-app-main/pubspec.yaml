@@ -88,6 +88,7 @@ flutter:
     - images/gif8.gif
     - images/gif9.webp
     - images/gif10.webp
+    - images/movifylogo.jpg
   
 
   # An image asset can refer to one or more resolution-specific "variants", see

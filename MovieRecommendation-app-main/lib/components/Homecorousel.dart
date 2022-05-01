@@ -42,9 +42,9 @@ class _HomecorouselState extends State<Homecorousel> {
           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
           child: Shimmer.fromColors(
               period: Duration(milliseconds: 2000),
-              baseColor: Colors.grey[500],
+              baseColor: Colors.grey[100],
               direction: ShimmerDirection.ltr,
-              highlightColor: Colors.grey[300],
+              highlightColor: Colors.grey[100],
               child: Container(
                 margin: EdgeInsets.all(8),
                 decoration: BoxDecoration(

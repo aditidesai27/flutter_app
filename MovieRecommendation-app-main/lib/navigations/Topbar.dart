@@ -318,7 +318,8 @@ class _TopbarState extends State<Topbar> {
                                             fontSize: 23,
                                             fontWeight: FontWeight.bold,
                                             decoration: TextDecoration.none,
-                                            color: Colors.pinkAccent
+                                            color: Color.fromARGB(
+                                                    230, 122, 249, 245)
                                                 .withOpacity(0.8)),
                                       )),
                                       Container(
@@ -359,8 +360,26 @@ class _TopbarState extends State<Topbar> {
                                               height: 40,
                                               decoration: BoxDecoration(
                                                   borderRadius:
-                                                      BorderRadius.circular(4),
-                                                  color: Colors.blueGrey),
+                                                      BorderRadius.circular(20),
+                                                  color: Colors.black,
+                                                  border: Border(
+                                                    top: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                    left: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                  )),
                                               child: Row(
                                                 children: [
                                                   Container(
@@ -413,7 +432,7 @@ class _TopbarState extends State<Topbar> {
                                               height: 40,
                                               decoration: BoxDecoration(
                                                   borderRadius:
-                                                      BorderRadius.circular(4),
+                                                      BorderRadius.circular(20),
                                                   color: Colors.blueGrey),
                                               child: Row(
                                                 children: [

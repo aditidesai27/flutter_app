@@ -7,7 +7,8 @@ class Cast extends StatefulWidget {
   final id;
   final userid;
   final username;
-  Cast({Key key, @required this.id,this.userid,this.username}) : super(key: key);
+  Cast({Key key, @required this.id, this.userid, this.username})
+      : super(key: key);
 
   @override
   _CastState createState() => _CastState();
@@ -49,9 +50,9 @@ class _CastState extends State<Cast> {
               itemBuilder: (BuildContext context, int index) {
                 return Shimmer.fromColors(
                     period: Duration(milliseconds: 2000),
-                    baseColor: Colors.grey[700],
+                    baseColor: Colors.grey[100],
                     direction: ShimmerDirection.ltr,
-                    highlightColor: Colors.grey[500],
+                    highlightColor: Colors.grey[100],
                     child: Container(
                         child: Row(
                       children: [

@@ -122,6 +122,7 @@ class _RecommendationsState extends State<Recommendations> {
       print(e);
     }
   }
+
   @override
   void initState() {
     super.initState();
@@ -168,9 +169,9 @@ class _RecommendationsState extends State<Recommendations> {
               itemBuilder: (BuildContext context, int index) {
                 return Shimmer.fromColors(
                   period: Duration(milliseconds: 2000),
-                  baseColor: Colors.grey[700],
+                  baseColor: Colors.grey[100],
                   direction: ShimmerDirection.ltr,
-                  highlightColor: Colors.grey[500],
+                  highlightColor: Colors.grey[100],
                   child: Container(
                     height: 160,
                     margin: EdgeInsets.all(6.0),
@@ -270,9 +271,9 @@ class _RecommendationsState extends State<Recommendations> {
               itemBuilder: (BuildContext context, int index) {
                 return Shimmer.fromColors(
                   period: Duration(milliseconds: 2000),
-                  baseColor: Colors.grey[700],
+                  baseColor: Colors.grey[100],
                   direction: ShimmerDirection.ltr,
-                  highlightColor: Colors.grey[500],
+                  highlightColor: Colors.grey[100],
                   child: Container(
                     height: 160,
                     margin: EdgeInsets.all(6.0),

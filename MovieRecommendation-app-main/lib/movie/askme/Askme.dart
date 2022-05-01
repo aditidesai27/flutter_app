@@ -20,7 +20,7 @@ class _AskmeState extends State<Askme> {
   bool like = false;
   List colors = [
     {
-      "color": Color.fromRGBO(145, 112, 157, 2),
+      "color": Color.fromRGBO(122, 249, 245, 2),
     },
     {
       "color": Color.fromRGBO(255, 87, 51, 2),

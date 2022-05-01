@@ -9,14 +9,15 @@ class Aboutme extends StatefulWidget {
 class _AboutmeState extends State<Aboutme> {
   List about = [
     "",
-    "Hi there! JASHWANTH here.",
-    "API used from TMDB.",
-    "SENTIMENT ANALYSIS APPLIED ON MOVIE REVIEWS.",
-    "Basically this is my personal project.",
-    "if you like the app you can rate this app.",
-    "ANY QUERIES VISIT THE SITE GIVEN LINK IN THE BELOW.",
-    "GITHUB : https://github.com/jashwanth999",
-    "WEBSITE : https://jashwanth.netlify.app/"
+    // "Hi there! JASHWANTH here.",
+    // "API used from TMDB.",
+    // "SENTIMENT ANALYSIS APPLIED ON MOVIE REVIEWS.",
+    // "Basically this is my personal project.",
+    // "if you like the app you can rate this app.",
+    // "ANY QUERIES VISIT THE SITE GIVEN LINK IN THE BELOW.",
+    // "GITHUB : https://github.com/jashwanth999",
+    // "WEBSITE : https://jashwanth.netlify.app/"
+    "The basic idea behind this system is that movies that are more popular and critically acclaimed will have a higher probability of being liked by the average audience. Second is content-based filtering, where we try to profile the user's interests using information collected, and recommend items based on that profile. The other is collaborative filtering, where we try to group similar users together and use information about the group to make recommendations to the user."
   ];
   @override
   Widget build(BuildContext context) {
@@ -40,9 +41,9 @@ class _AboutmeState extends State<Aboutme> {
                       height: 150,
                       width: 100,
                       child: Image(
-                        color: Colors.pink,
                         fit: BoxFit.contain,
-                        image: AssetImage("images/logo3.png"),
+                        image: NetworkImage(
+                            "https://github.com/sarthakdharia/Movify/blob/main/newfold/logo_movify.png?raw=true"),
                       ));
                 return Container(
                     margin: EdgeInsets.all(10),

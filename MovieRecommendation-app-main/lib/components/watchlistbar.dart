@@ -39,9 +39,9 @@ class _WatchlistbarState extends State<Watchlistbar> {
                           margin: EdgeInsets.all(10),
                           child: Shimmer.fromColors(
                               period: Duration(milliseconds: 2000),
-                              baseColor: Colors.grey[500],
+                              baseColor: Colors.grey[100],
                               direction: ShimmerDirection.ltr,
-                              highlightColor: Colors.grey[300],
+                              highlightColor: Colors.grey[100],
                               child: Text(
                                 "WATCHLIST",
                                 style: TextStyle(
@@ -53,9 +53,9 @@ class _WatchlistbarState extends State<Watchlistbar> {
                           margin: EdgeInsets.all(10),
                           child: Shimmer.fromColors(
                             period: Duration(milliseconds: 2000),
-                            baseColor: Colors.grey[500],
+                            baseColor: Colors.grey[100],
                             direction: ShimmerDirection.ltr,
-                            highlightColor: Colors.grey[300],
+                            highlightColor: Colors.grey[100],
                             child: Text(
                               "SAVED",
                               style: TextStyle(

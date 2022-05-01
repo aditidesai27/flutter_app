@@ -255,7 +255,7 @@ class _AboutState extends State<About> {
       ),
       child: Text("DETAILS",
           style: TextStyle(
-              color: Color.fromRGBO(222, 49, 99, 1),
+              color: Color.fromARGB(230, 122, 249, 245),
               fontSize: 20,
               fontWeight: FontWeight.bold,
               decoration: TextDecoration.none)),
@@ -267,7 +267,7 @@ class _AboutState extends State<About> {
       margin: EdgeInsets.only(top: 10, left: 8, bottom: 5),
       child: Text("CREW",
           style: TextStyle(
-              color: Color.fromRGBO(222, 49, 99, 1),
+              color: Color.fromARGB(230, 122, 249, 245),
               fontSize: 20,
               fontWeight: FontWeight.bold,
               decoration: TextDecoration.none)),
@@ -282,7 +282,7 @@ class _AboutState extends State<About> {
       ),
       child: Text("OVERVIEW",
           style: TextStyle(
-              color: Color.fromRGBO(222, 49, 99, 1),
+              color: Color.fromARGB(230, 122, 249, 245),
               fontSize: 20,
               fontWeight: FontWeight.bold,
               decoration: TextDecoration.none)),
@@ -295,7 +295,7 @@ class _AboutState extends State<About> {
       child: Text("GENRES",
           style: TextStyle(
               fontFamily: 'fonts/Lato-Bold.ttf',
-              color: Color.fromRGBO(222, 49, 99, 1),
+              color: Color.fromARGB(230, 122, 249, 245),
               fontSize: 20,
               fontWeight: FontWeight.bold,
               decoration: TextDecoration.none)),

@@ -129,9 +129,9 @@ class _PopularviewallState extends State<Popularviewall> {
               itemBuilder: (BuildContext context, int index) {
                 return Shimmer.fromColors(
                   period: Duration(milliseconds: 2000),
-                  baseColor: Colors.grey[700],
+                  baseColor: Colors.grey[100],
                   direction: ShimmerDirection.ltr,
-                  highlightColor: Colors.grey[500],
+                  highlightColor: Colors.grey[100],
                   child: Container(
                     height: 170,
                     margin: EdgeInsets.all(6.0),

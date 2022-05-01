@@ -15,29 +15,29 @@ class Profile extends StatefulWidget {
 }
 
 class _ProfileState extends State<Profile> {
-  launchurl() async {
-    String url = "https://jashwanth.netlify.app/";
-    if (await canLaunch(url) != null) {
-      launch(url);
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Container(
-            height: 25,
-            alignment: Alignment.center,
-            child: Text("Trailer not found",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-          ),
-          action: SnackBarAction(
-            label: 'Cancel',
-            onPressed: () {
-              // Code to execute.
-            },
-          ),
-        ),
-      );
-    }
-  }
+  // launchurl() async {
+  //   String url = "https://jashwanth.netlify.app/";
+  //   if (await canLaunch(url) != null) {
+  //     launch(url);
+  //   } else {
+  //     ScaffoldMessenger.of(context).showSnackBar(
+  //       SnackBar(
+  //         content: Container(
+  //           height: 25,
+  //           alignment: Alignment.center,
+  //           child: Text("Trailer not found",
+  //               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+  //         ),
+  //         action: SnackBarAction(
+  //           label: 'Cancel',
+  //           onPressed: () {
+  //             // Code to execute.
+  //           },
+  //         ),
+  //       ),
+  //     );
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -94,33 +94,33 @@ class _ProfileState extends State<Profile> {
                                     ),
                                   ),
                                 ]))),
-                    Container(
-                        margin: EdgeInsets.only(top: 10, left: 25),
-                        child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Container(
-                                  padding: EdgeInsets.all(15),
-                                  child: Icon(
-                                    FontAwesome.star_half_empty,
-                                    color: Colors.white,
-                                    size: 23,
-                                  )),
-                              Container(
-                                padding: EdgeInsets.all(15),
-                                child: Text(
-                                  "RATE APP",
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
-                            ])),
+                    // Container(
+                    //     margin: EdgeInsets.only(top: 10, left: 25),
+                    //     child: Row(
+                    //         crossAxisAlignment: CrossAxisAlignment.start,
+                    //         children: [
+                    //           Container(
+                    //               padding: EdgeInsets.all(15),
+                    //               child: Icon(
+                    //                 FontAwesome.star_half_empty,
+                    //                 color: Colors.white,
+                    //                 size: 23,
+                    //               )),
+                    //           Container(
+                    //             padding: EdgeInsets.all(15),
+                    //             child: Text(
+                    //               "RATE APP",
+                    //               style: TextStyle(
+                    //                   color: Colors.white,
+                    //                   fontSize: 20,
+                    //                   fontWeight: FontWeight.bold),
+                    //             ),
+                    //           ),
+                    // ])),
                     InkWell(
-                        onTap: () {
-                          launchurl();
-                        },
+                        // onTap: () {
+                        //   launchurl();
+                        // },
                         child: Container(
                             margin: EdgeInsets.only(top: 10, left: 25),
                             child: Row(
@@ -201,7 +201,8 @@ class _ProfileState extends State<Profile> {
                                     child: Text(
                                       "SIGN OUT",
                                       style: TextStyle(
-                                          color: Colors.pink,
+                                          color: Color.fromARGB(
+                                              255, 235, 238, 238),
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold),
                                     ),

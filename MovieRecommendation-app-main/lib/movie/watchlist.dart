@@ -372,7 +372,7 @@ class _WatchlistState extends State<Watchlist> {
                                           period: Duration(milliseconds: 2000),
                                           baseColor: Colors.grey[100],
                                           direction: ShimmerDirection.ltr,
-                                          highlightColor: Colors.grey[800],
+                                          highlightColor: Colors.grey[100],
                                           child: Container(
                                             margin: EdgeInsets.only(left: 20),
                                             child: Text(
