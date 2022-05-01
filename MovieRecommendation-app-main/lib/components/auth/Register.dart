@@ -89,7 +89,7 @@ class _RegisterState extends State<Register> {
                         color: Colors.white,
                         size: 30,
                       ),
-                      backgroundColor: Colors.green,
+                      backgroundColor: Colors.blue,
                     ),
                   )),
               Column(
@@ -180,7 +180,7 @@ class _RegisterState extends State<Register> {
           right: 20,
           bottom: 20,
         ),
-        child: Text("Create an Account",
+        child: Text("SIGN UP",
             style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
@@ -229,12 +229,7 @@ class _RegisterState extends State<Register> {
         padding: EdgeInsets.all(0.0),
         child: Ink(
           decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [Color(0xff374ABE), Color(0xff64B6FF)],
-                begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
-              ),
-              borderRadius: BorderRadius.circular(30.0)),
+              color: Colors.cyan, borderRadius: BorderRadius.circular(30.0)),
           child: Container(
             constraints: BoxConstraints(maxWidth: 200.0, minHeight: 50.0),
             alignment: Alignment.center,

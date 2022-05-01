@@ -30,7 +30,7 @@ class _WatchlistbarState extends State<Watchlistbar> {
                   TabBar(
                     indicator: BoxDecoration(
                       border: Border(
-                        bottom: BorderSide(color: Colors.pink, width: 3.0),
+                        bottom: BorderSide(color: Colors.teal, width: 3.0),
                       ),
                     ),
                     unselectedLabelColor: Colors.white,

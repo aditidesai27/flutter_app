@@ -388,7 +388,7 @@ class _TopbarState extends State<Topbar> {
                                                       child: Icon(
                                                           AntDesign.play,
                                                           size: 22,
-                                                          color: Colors.white)),
+                                                          color: Colors.cyan)),
                                                   Container(
                                                     padding: EdgeInsets.only(
                                                         bottom: 4,
@@ -400,7 +400,7 @@ class _TopbarState extends State<Topbar> {
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.bold,
-                                                          color: Colors.white),
+                                                          color: Colors.cyan),
                                                     ),
                                                   )
                                                 ],
@@ -433,7 +433,25 @@ class _TopbarState extends State<Topbar> {
                                               decoration: BoxDecoration(
                                                   borderRadius:
                                                       BorderRadius.circular(20),
-                                                  color: Colors.blueGrey),
+                                                  color: Colors.black,
+                                                  border: Border(
+                                                    top: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                    left: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Color.fromARGB(
+                                                            255, 0, 255, 255)),
+                                                  )),
                                               child: Row(
                                                 children: [
                                                   Container(
@@ -442,7 +460,7 @@ class _TopbarState extends State<Topbar> {
                                                       child: Icon(
                                                           AntDesign.plus,
                                                           size: 22,
-                                                          color: Colors.white)),
+                                                          color: Colors.cyan)),
                                                   Container(
                                                     padding: EdgeInsets.only(
                                                         bottom: 4,
@@ -454,7 +472,7 @@ class _TopbarState extends State<Topbar> {
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.bold,
-                                                          color: Colors.white),
+                                                          color: Colors.cyan),
                                                     ),
                                                   )
                                                 ],

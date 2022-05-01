@@ -152,16 +152,15 @@ class _LoginState extends State<Login> {
 
   Widget gethead() {
     return Container(
-        margin: EdgeInsets.only(
-          left: 20,
-          right: 20,
-          bottom: 20,
-        ),
-        child: Text("Movify",
-            style: TextStyle(
-                color: Colors.white,
-                fontSize: 30,
-                fontWeight: FontWeight.bold)));
+      margin: EdgeInsets.only(
+        left: 20,
+        right: 20,
+        bottom: 20,
+      ),
+      child: Text("MOVIFY",
+          style: TextStyle(
+              color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold)),
+    );
   }
 
   Widget createbutton() {

@@ -102,7 +102,7 @@ class _CastdetailsState extends State<Castdetails> {
               child: Text(
                 "MORE MOVIES OF " + widget.castname.toUpperCase().split(' ')[0],
                 style: TextStyle(
-                    color: Colors.pink,
+                    color: Colors.teal,
                     fontWeight: FontWeight.bold,
                     fontSize: 20),
               ),

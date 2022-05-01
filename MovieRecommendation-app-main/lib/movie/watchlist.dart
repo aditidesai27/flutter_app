@@ -53,7 +53,7 @@ class _WatchlistState extends State<Watchlist> {
   }
 
   List random = [
-    "images/gif1.gif",
+    "images/action.jpg",
     "images/gif3.webp",
     "images/gif4.gif",
     "images/gif5.gif",
@@ -315,7 +315,7 @@ class _WatchlistState extends State<Watchlist> {
               _showMyDialog();
           },
           child: const Icon(Icons.add),
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.teal,
         ),
         body: watchlist == null
             ? Center(child: CircularProgressIndicator())
@@ -353,8 +353,8 @@ class _WatchlistState extends State<Watchlist> {
                                         colorBlendMode: BlendMode.modulate,
                                         width: double.infinity,
                                         fit: BoxFit.cover,
-                                        image: AssetImage(random[
-                                            Random().nextInt(random.length)])),
+                                        image: NetworkImage(
+                                            "https://blog.reverbnation.com/wp-content/uploads/2015/11/TheWatchList1.png")),
                                   ),
                                   Positioned(
                                       top: 10,
@@ -385,7 +385,7 @@ class _WatchlistState extends State<Watchlist> {
                                                             ["watchlistname"]
                                                         .toUpperCase(),
                                                 style: TextStyle(
-                                                    color: Colors.white,
+                                                    color: Colors.cyan,
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: 20)),
                                           ))),

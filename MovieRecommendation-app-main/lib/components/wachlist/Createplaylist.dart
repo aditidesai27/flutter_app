@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 
-
 class Createplaylist extends StatefulWidget {
   final userid;
   final username;
@@ -67,7 +66,7 @@ class _CreateplaylistState extends State<Createplaylist> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromRGBO(242, 94, 94, 2),
+        backgroundColor: Colors.cyan,
         body: Container(
             margin: EdgeInsets.only(top: 25),
             height: double.infinity,
@@ -76,10 +75,7 @@ class _CreateplaylistState extends State<Createplaylist> {
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment(0.5, 0.5),
-                colors: <Color>[
-                  Color.fromRGBO(242, 94, 94, 2),
-                  Color.fromRGBO(6, 0, 0, 2)
-                ],
+                colors: <Color>[Colors.cyan, Color.fromRGBO(6, 0, 0, 2)],
               ),
             ),
             child: Stack(children: [

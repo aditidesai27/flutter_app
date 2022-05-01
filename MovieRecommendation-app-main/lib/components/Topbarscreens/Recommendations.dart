@@ -145,7 +145,7 @@ class _RecommendationsState extends State<Recommendations> {
             ),
             child: Text("MORE LIKE THIS 💙",
                 style: TextStyle(
-                    color: Color.fromRGBO(222, 49, 99, 1),
+                    color: Colors.cyan,
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.none)),
