@@ -68,7 +68,7 @@ class _LoginState extends State<Login> {
             width: double.infinity,
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                begin: Alignment.topLeft,
+                begin: Alignment.topCenter,
                 end: Alignment(0.0, 0.0),
                 colors: <Color>[
                   Color.fromRGBO(122, 249, 245, 2),
@@ -87,13 +87,15 @@ class _LoginState extends State<Login> {
                         padding: EdgeInsets.only(
                           top: 10,
                           left: 10,
-                          bottom: 5,
+                          bottom: 10,
                         ),
-                        width: double.infinity,
-                        margin: EdgeInsets.all(10),
+                        width: 400,
+                        margin: EdgeInsets.symmetric(
+                            horizontal: 80.0, vertical: 20),
                         decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(5.0),
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(width: 2, color: Colors.cyan),
                         ),
                         child: TextField(
                           onChanged: (text) {
@@ -102,20 +104,26 @@ class _LoginState extends State<Login> {
                             });
                           },
                           decoration: InputDecoration(
-                              border: InputBorder.none, hintText: 'Email'),
+                            border: InputBorder.none,
+                            hintText: 'Email',
+                            hintStyle: TextStyle(color: Colors.white),
+                          ),
+                          style: TextStyle(color: Colors.white),
                         )),
                     Container(
                         height: 50,
                         padding: EdgeInsets.only(
                           top: 10,
                           left: 10,
-                          bottom: 5,
+                          bottom: 10,
                         ),
-                        width: double.infinity,
-                        margin: EdgeInsets.all(10),
+                        width: 400,
+                        margin: EdgeInsets.symmetric(
+                            horizontal: 80.0, vertical: 20),
                         decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(5.0),
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(width: 2, color: Colors.cyan),
                         ),
                         child: TextField(
                           onChanged: (text) {
@@ -125,7 +133,11 @@ class _LoginState extends State<Login> {
                           },
                           obscureText: true,
                           decoration: InputDecoration(
-                              border: InputBorder.none, hintText: 'Password'),
+                            border: InputBorder.none,
+                            hintText: 'Password',
+                            hintStyle: TextStyle(color: Colors.white),
+                          ),
+                          style: TextStyle(color: Colors.white),
                         )),
                     createbutton(),
                     getregister(),
